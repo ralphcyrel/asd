@@ -14,6 +14,16 @@ def print_color(text, color):
     print(print_color)
 def main ():
 # will ask the user to input his/her name
+name = input("Enter your name: ")
 # will ask the user to input his/her name
+dream_job = input("Enter your dream job: ")
 # will ask the user to input his/her address
+address = input("Enter your address: ")
 # will ask the user to input his/her email address
+email_address = input("Enter your email address: ")
+
+#printing of input value
+print_color(f"Hello, My name is {name}", 'cyan')
+print_color(f"My dream job is {dream_job}", 'magenta')
+print_color(f"my address is {address}", 'red')
+print_color(f"my email address is {email_address}", 'yellow')
