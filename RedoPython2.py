@@ -27,3 +27,6 @@ print_color(f"Hello, My name is {name}", 'cyan')
 print_color(f"My dream job is {dream_job}", 'magenta')
 print_color(f"my address is {address}", 'red')
 print_color(f"my email address is {email_address}", 'yellow')
+
+if __name__ == '__main__':
+    main()
