@@ -12,6 +12,7 @@ def print_color(text, color):
     end_color = '\033[0m'
     print_color = f"{colors[color]}{'*' * len(text)}\n{text}\n{'*' * len(text)}{end_color}"
     print(print_color)
+def main ():
 # will ask the user to input his/her name
 # will ask the user to input his/her name
 # will ask the user to input his/her address
